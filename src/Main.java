@@ -27,7 +27,7 @@ public class Main {
         //main code starts here
         try {
 
-            URL url = new URL("http://google.com");
+            URL url = new URL("https://google.com");
             BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
             String inputLine;
             while ((inputLine = in.readLine()) != null) {
